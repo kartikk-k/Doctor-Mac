@@ -1,0 +1,14 @@
+# Build artifacts — DMGs, archives, exported apps live here, never in git.
+build/
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# macOS
+.DS_Store
+
+# Never commit App Store Connect private keys
+AuthKey_*.p8
+*.p8
